@@ -1,20 +1,24 @@
 {
-  "compilerSoptions": {
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
     "baseUrl": "./src",
     "paths": {
       "~/*": ["*"]
-    },
-    "allowJs": true,
-    "allowSyntheticDefauiltImports": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "jsx": "react-native",
-    "lib": ["es6"],
-    "modulResolution": "node",
-    "noEmit": true,
-    "strict": true,
-    "target": "esnext"
+    }
   },
-  "exclude": ["node_modules", "babel.config.js", "metro.config.js",
-    "jest.config.js"]
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
 }
